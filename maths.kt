@@ -109,7 +109,7 @@ class Complex(var re: Double, var im: Double) {
 
 
 
-    // Factory methods
+ 
     fun apply(re: Double) = Complex(re)
     fun ln(c:Complex):Complex = c.ln()
 
